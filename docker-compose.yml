@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mukuldockertest:
+    image: mukuldockertest
+    build:
+      context: .
+      dockerfile: MukulDockerTest\Dockerfile
